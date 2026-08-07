@@ -1,0 +1,28 @@
+{
+  "fonte": "MEF — addizionale regionale (Lombardia)",
+  "anno": 2026,
+  "dati": {
+    "regione": "REGIONE LOMBARDIA",
+    "provvedimento": "2179",
+    "pubblicazione": "28-GEN-26",
+    "scaglioni": [
+      {
+        "aliquota": 1.23,
+        "fascia": "fino a 15000.00 euro"
+      },
+      {
+        "aliquota": 1.58,
+        "fascia": "oltre 15000.00 e fino a 28000.00 euro"
+      },
+      {
+        "aliquota": 1.72,
+        "fascia": "oltre 28000.00 e fino a 50000.00 euro"
+      },
+      {
+        "aliquota": 1.73,
+        "fascia": "oltre 50000.00 euro"
+      }
+    ]
+  },
+  "aggiornatoIl": "2026-08-07T14:33:20.341Z"
+}

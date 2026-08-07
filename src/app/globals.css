@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Tema ripreso da jethr.com (estratto dal CSS del sito, 2026-08-07):
+   font Wix Madefor Display, primario #11150a, testo #59615f, bordi #e0e6dc,
+   fill #f1f4f1, accento lime #dfeb57, superfici bianche, light-only.
+
+   Colori del waterfall: coppia divergente terracotta/petrolio validata su
+   superficie #fbfcfb con scripts/validate_palette.js (CVD ΔE 16.1, contrasto ≥3:1).
+   Il neutro dei totali è il dark brand (ruolo neutro, esente dal chroma floor). */
+:root {
+  color-scheme: light;
+
+  --surface: #ffffff;
+  --surface-alt: #fbfcfb;
+  --fill: #f1f4f1;
+  --fill-dark: #ecefec;
+
+  --ink-primary: #11150a;
+  --ink-secondary: #59615f;
+  /* Il muted del sito Jet (#888a85) sta a 3,49:1 su bianco: sotto la soglia
+     WCAG AA per testo piccolo. Scurito allo step successivo della stessa
+     famiglia verde-grigia — 4,96:1, AA pieno, resta recessivo. */
+  --ink-muted: #6e716a;
+
+  --border: #e0e6dc;
+  --border-dark: #cfd6cd;
+
+  --accent: #dfeb57;
+  --accent-soft: #f6f9cf;
+
+  /* Barra di composizione: il netto è l'ancora (dark brand), le trattenute sono
+     una rampa ordinale a una tinta — sono la stessa cosa, ordinate per peso.
+     Validata con scripts/validate_palette.js --ordinal su superficie #fbfcfb:
+     monotona in luminosità, gap ΔL ≥ 0.06, estremo chiaro 2,09:1. */
+  --viz-netto: #11150a;
+  --viz-tratt-1: #c2452a;
+  --viz-tratt-2: #dd7154;
+  --viz-tratt-3: #eb9e88;
+  --viz-up: #0b7fa3;
+  --viz-surface: #fbfcfb;
+  --viz-grid: #e0e6dc;
+  --viz-baseline: #cfd6cd;
+  /* Terracotta scura per il testo: 5,3:1 su bianco (il #cf4f33 stava a 4,36). */
+  --viz-down: #b8401f;
+}
+
+body {
+  background: var(--surface);
+  color: var(--ink-primary);
+}

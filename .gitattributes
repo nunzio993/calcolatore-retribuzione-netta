@@ -1,0 +1,6 @@
+# Fine riga LF nel repository: la CI gira su Linux e gli script del
+# monitoraggio devono essere eseguibili lì senza sorprese.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary

@@ -1,0 +1,129 @@
+{
+  "schema": "verifica-regole/v1",
+  "dataRicerca": "2026-08-07",
+  "annoImposta": 2026,
+  "strumento": "Claude Code · 3 agenti su fonti primarie",
+  "claims": [
+    {
+      "id": "irpef.scaglioni",
+      "esito": "confermato",
+      "valore": "23% fino a 28.000 € · 33% fino a 50.000 € · 43% oltre",
+      "riferimento": "Art. 11 c. 1 TUIR, mod. L. 30/12/2025 n. 199 art. 1 c. 3",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art11!vig=",
+      "citazione": "a) fino a 28.000 euro, 23 per cento; b) oltre 28.000 euro e fino a 50.000 euro, 33 per cento; c) oltre 50.000 euro, 43 per cento.",
+      "note": "La scheda divulgativa AdE aggiornata al 13/01/2026 riportava ancora 35%: prevale il testo di Normattiva."
+    },
+    {
+      "id": "detrazione.fascia1",
+      "esito": "confermato",
+      "valore": "1.955 € fino a 15.000 € (minimo 690 €)",
+      "riferimento": "Art. 13 c. 1 lett. a) TUIR",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art13!vig=",
+      "citazione": "1.955 euro, se il reddito complessivo non supera 15.000 euro. L'ammontare della detrazione effettivamente spettante non può essere inferiore a 690 euro."
+    },
+    {
+      "id": "detrazione.correttivo",
+      "esito": "confermato",
+      "valore": "+65 € se reddito fra 25.000 € e 35.000 €",
+      "riferimento": "Art. 13 c. 1.1 TUIR (introdotto da L. 234/2021 art. 1 c. 2)",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art13!vig=",
+      "citazione": "La detrazione spettante ai sensi del comma 1 è aumentata di un importo pari a 65 euro, se il reddito complessivo è superiore a 25.000 euro ma non a 35.000 euro."
+    },
+    {
+      "id": "cuneo.sommaIntegrativa",
+      "esito": "confermato",
+      "valore": "7,1% / 5,3% / 4,8% per redditi entro 20.000 €",
+      "riferimento": "L. 30/12/2024 n. 207 art. 1 cc. 4-5",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-12-30;207~art1!vig=",
+      "citazione": "7,1 per cento, se il reddito di lavoro dipendente non è superiore a 8.500 euro; 5,3 per cento, se l'ammontare del reddito di lavoro dipendente è superiore a 8.500 euro ma non a 15.000 euro; 4,8 per cento, se il reddito di lavoro dipendente è superiore a 15.000 euro.",
+      "note": "Norma senza termine finale: non prorogata annualmente. Ha sostituito dal 2025 l'esonero contributivo 6/7%, cessato il 31/12/2024."
+    },
+    {
+      "id": "cuneo.ulterioreDetrazione",
+      "esito": "confermato",
+      "valore": "1.000 € fra 20.000 € e 32.000 €, décalage fino a 40.000 €",
+      "riferimento": "L. 30/12/2024 n. 207 art. 1 c. 6",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-12-30;207~art1!vig=",
+      "citazione": "1.000 euro, se l'ammontare del reddito complessivo è superiore a 20.000 euro ma non a 32.000 euro; al prodotto tra l'importo di 1.000 euro e il rapporto tra l'importo di 40.000 euro, diminuito del reddito complessivo, e l'importo di 8.000 euro.",
+      "note": "Nessuna modifica ai commi 4-9 nella L. 199/2025: verificato sul testo integrale."
+    },
+    {
+      "id": "cuneo.trattamentoIntegrativo",
+      "esito": "confermato",
+      "valore": "1.200 € per redditi entro 15.000 €",
+      "riferimento": "D.L. 5/02/2020 n. 3 art. 1 cc. 1-2 (conv. L. 21/2020)",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2020-02-05;3~art1!vig=",
+      "citazione": "è riconosciuta una somma a titolo di trattamento integrativo, che non concorre alla formazione del reddito, di importo pari a 1.200 euro"
+    },
+    {
+      "id": "cuneo.capienzaTrattamento",
+      "esito": "confermato",
+      "valore": "imposta lorda > detrazione art. 13 meno 75 €",
+      "riferimento": "D.L. 3/2020 art. 1 c. 1",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2020-02-05;3~art1!vig=",
+      "citazione": "sia di importo superiore a quello della detrazione spettante ai sensi dell'articolo 13, comma 1, del citato testo unico, diminuita dell'importo di 75 euro rapportato al periodo di lavoro nell'anno",
+      "note": "La franchigia di 75 € è nel testo di legge e viene omessa dalla maggior parte dei calcolatori pubblici."
+    },
+    {
+      "id": "contributi.ivs",
+      "esito": "confermato",
+      "valore": "9,19%",
+      "riferimento": "INPS circolare n. 11 del 16/01/2024 §3 (aliquota strutturale FPLD)",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2024.01.circolare-numero-11-del-16-01-2024_14436.html",
+      "citazione": "la quota di contribuzione IVS a carico del lavoratore sia pari al 9,19%"
+    },
+    {
+      "id": "contributi.cigs",
+      "esito": "confermato",
+      "valore": "0,3%",
+      "riferimento": "D.Lgs. 148/2015 art. 23 c. 1; INPS circolare n. 76 del 30/06/2022",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;148",
+      "citazione": "contributo ordinario pari allo 0,90 per cento della retribuzione imponibile, di cui lo 0,30 per cento a carico del lavoratore",
+      "note": "Dovuta per industria oltre 15 dipendenti e terziario oltre 50: il caso standard del calcolatore."
+    },
+    {
+      "id": "contributi.primaFascia",
+      "esito": "confermato",
+      "valore": "56.224 € (oltre: +1%)",
+      "riferimento": "INPS circolare n. 6 del 30/01/2026 §5; art. 3-ter D.L. 384/1992",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-6-del-30-01-2026_15151.html",
+      "citazione": "Posto che la prima fascia di retribuzione pensionabile è stata determinata, per l'anno 2026, in 56.224,00 euro, l'aliquota aggiuntiva dell'1% deve essere applicata sulla quota di retribuzione eccedente il predetto tetto retributivo"
+    },
+    {
+      "id": "contributi.massimale",
+      "esito": "confermato",
+      "valore": "122.295 €",
+      "riferimento": "INPS circolare n. 6 del 30/01/2026 §6; art. 2 c. 18 L. 335/1995",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-6-del-30-01-2026_15151.html",
+      "citazione": "Il massimale opera anche ai fini dell'aliquota aggiuntiva dell'1% di cui all'articolo 3-ter del decreto-legge n. 384/1992.",
+      "note": "Vale per gli iscritti a forme pensionistiche obbligatorie dopo il 31/12/1995. Le contribuzioni minori, CIGS inclusa, restano dovute oltre il massimale."
+    },
+    {
+      "id": "addizionali.regionale",
+      "esito": "confermato",
+      "valore": "1,23% / 1,58% / 1,72% / 1,73%",
+      "riferimento": "Art. 72 c. 1 L.R. Lombardia 14/07/2003 n. 10; provvedimento MEF 2179 del 28/01/2026",
+      "url": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/addregirpef/addregirpef.php?reg=10",
+      "citazione": "1,23 fino a 15000,00 euro; 1,58 oltre 15000,00 e fino a 28000,00 euro; 1,72 oltre 28000,00 e fino a 50000,00 euro; 1,73 oltre 50000,00 euro",
+      "note": "Scaglioni regionali propri, diversi da quelli statali: facoltà prorogata al 2028 dalla L. 207/2024 cc. 726-728, mod. L. 199/2025."
+    },
+    {
+      "id": "addizionali.comunaleAliquota",
+      "esito": "confermato",
+      "valore": "0,8%",
+      "riferimento": "Delibera C.C. Milano n. 36 del 21/10/2013",
+      "url": "https://www.comune.milano.it/argomenti/tributi/addizionale-comunale-irpef",
+      "citazione": "Aliquota unica 0,8 per cento",
+      "note": "Nessuna delibera 2026: valore vigente per proroga. Confermato dal parere dell'Organo di Revisione sul bilancio 2026-2028 (n. 98 del 09/12/2025, pag. 69)."
+    },
+    {
+      "id": "addizionali.comunaleEsenzione",
+      "esito": "confermato",
+      "valore": "23.000 € (cliff)",
+      "riferimento": "Delibera C.C. Milano n. 46 del 28/09/2020; art. 1 c. 11 D.L. 138/2011",
+      "url": "https://www.comune.milano.it/argomenti/tributi/addizionale-comunale-irpef",
+      "citazione": "Di esentare, a decorrere dall'anno 2020, i redditi annui imponibili non superiori a € 23.000,00",
+      "note": "È una soglia a cliff, non una franchigia: superato il limite l'addizionale si applica all'intero reddito complessivo (art. 1 c. 11 D.L. 138/2011)."
+    }
+  ]
+}

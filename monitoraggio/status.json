@@ -1,0 +1,58 @@
+{
+  "ultimoCheck": "2026-08-07T15:42:18.746Z",
+  "esito": "ok",
+  "fonti": [
+    {
+      "nome": "MEF — addizionale comunale (Milano, F205)",
+      "stato": "ok",
+      "dettaglio": "Invariato (carry-forward dall'anno 2025: nessuna delibera 2026 — normale prima del 20/12)",
+      "controllatoIl": "2026-08-07T15:42:18.746Z"
+    },
+    {
+      "nome": "MEF — addizionale regionale (Lombardia)",
+      "stato": "ok",
+      "dettaglio": "Invariato",
+      "controllatoIl": "2026-08-07T15:42:18.746Z"
+    },
+    {
+      "nome": "Normattiva — art. 11 TUIR (scaglioni IRPEF)",
+      "stato": "ok",
+      "dettaglio": "Testo vigente invariato",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art11!vig=",
+      "controllatoIl": "2026-08-07T15:34:24.137Z"
+    },
+    {
+      "nome": "Normattiva — art. 13 TUIR (detrazioni lavoro dipendente)",
+      "stato": "ok",
+      "dettaglio": "Testo vigente invariato",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art13!vig=",
+      "controllatoIl": "2026-08-07T15:34:24.137Z"
+    },
+    {
+      "nome": "Normattiva — D.L. 3/2020 art. 1 (trattamento integrativo)",
+      "stato": "ok",
+      "dettaglio": "Testo vigente invariato",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2020-02-05;3~art1!vig=",
+      "controllatoIl": "2026-08-07T15:34:24.137Z"
+    },
+    {
+      "nome": "Normattiva — L. 207/2024 art. 1 (somma integrativa e ulteriore detrazione)",
+      "stato": "ok",
+      "dettaglio": "Testo vigente invariato",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-12-30;207~art1!vig=",
+      "controllatoIl": "2026-08-07T15:34:24.137Z"
+    }
+  ],
+  "scadenze": [
+    {
+      "nome": "Regole 2026 nel registry (LdB 2026 recepita)",
+      "attesaEntro": "15/01/2026",
+      "stato": "ricevuta"
+    },
+    {
+      "nome": "Verifica fonti recente (ultima: 2026-08-07, 0 gg fa)",
+      "attesaEntro": "180 giorni",
+      "stato": "ricevuta"
+    }
+  ]
+}
