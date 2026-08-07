@@ -1,0 +1,59 @@
+name: Monitoraggio normativo
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # ogni giorno: diff CSV MEF + dead-man switch
+    # Normattiva è controllata dal run del lunedì (logica interna a check.mjs:
+    # le leggi non cambiano ogni notte, 4 fetch a settimana bastano)
+  workflow_dispatch: {} # avvio manuale per demo (forza anche Normattiva)
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Esegui watchdog (diff MEF + hash Normattiva + dead-man switch)
+        id: watchdog
+        run: |
+          set +e
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            node monitoraggio/check.mjs --normattiva
+          else
+            node monitoraggio/check.mjs
+          fi
+          codice=$?
+          set -e
+          # exit 2 = cambiamento/scadenza mancata (non è un errore del job)
+          if [ "$codice" != "0" ] && [ "$codice" != "2" ]; then exit "$codice"; fi
+          echo "cambiamenti=$([ -f monitoraggio/diff-rilevato.md ] && echo si || echo no)" >> "$GITHUB_OUTPUT"
+
+      - name: Commit status e snapshot aggiornati
+        run: |
+          git config user.name "watchdog-normativo"
+          git config user.email "actions@users.noreply.github.com"
+          git add monitoraggio/status.json monitoraggio/snapshots/ monitoraggio/diff-rilevato.md 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "monitoraggio: aggiornamento status $(date -u +%F)"
+          git push
+
+      - name: Apri issue se rilevato un cambiamento
+        if: steps.watchdog.outputs.cambiamenti == 'si'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          titolo="Cambiamento normativo rilevato — $(date -u +%F)"
+          # una sola issue aperta alla volta: se esiste già, commenta invece di duplicare
+          esistente=$(gh issue list --state open --search "Cambiamento normativo rilevato" --json number --jq '.[0].number')
+          if [ -n "$esistente" ]; then
+            gh issue comment "$esistente" --body-file monitoraggio/diff-rilevato.md
+          else
+            gh issue create --title "$titolo" --body-file monitoraggio/diff-rilevato.md --label "normativa"
+          fi
