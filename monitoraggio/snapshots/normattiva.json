@@ -1,28 +1,28 @@
 {
   "fonti": {
     "art11-tuir": {
-      "stato": "ok",
-      "dettaglio": "Testo vigente invariato",
-      "hash": "9220fbe26c8a5d4f9b5156cc3996b7d110a36d0f898d7443e29a7bbfd1c5281e",
-      "controllatoIl": "2026-08-07T21:01:55.062Z"
+      "stato": "cambiamento-rilevato",
+      "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
+      "hash": "e05af2609543acad1226af7808ef42d21ed61e4e37511c72524091e96df6411a",
+      "controllatoIl": "2026-08-10T07:06:31.698Z"
     },
     "art13-tuir": {
-      "stato": "ok",
-      "dettaglio": "Testo vigente invariato",
-      "hash": "480de9a89bde03850fd7306fa5e45bd739731becd74be50d47202237a6f6782a",
-      "controllatoIl": "2026-08-07T21:01:55.062Z"
+      "stato": "cambiamento-rilevato",
+      "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
+      "hash": "6996c68e98dec215ffa1f5ec6eb1a8b053a5dd40e05eff8cc4df4ab1e22b1caa",
+      "controllatoIl": "2026-08-10T07:06:31.698Z"
     },
     "dl3-2020-art1": {
-      "stato": "ok",
-      "dettaglio": "Testo vigente invariato",
-      "hash": "2ba6fdd9b5b26e053658d0296bd531c651be788711127d81118781a3bcca638a",
-      "controllatoIl": "2026-08-07T21:01:55.062Z"
+      "stato": "cambiamento-rilevato",
+      "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
+      "hash": "db49dee53eb9b546af27c7401a940199c50a43c04e03230056365ac041e458ad",
+      "controllatoIl": "2026-08-10T07:06:31.698Z"
     },
     "l207-2024-art1": {
-      "stato": "ok",
-      "dettaglio": "Testo vigente invariato",
-      "hash": "40cfa744504e9b595ed5f52a8a37c5256cce09f3bd2ea70fbff624ddd6e00297",
-      "controllatoIl": "2026-08-07T21:01:55.062Z"
+      "stato": "cambiamento-rilevato",
+      "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
+      "hash": "a7068b5618204bbda566ba07edfe188590ed9c7cdcbc704d4c165ab03029ebfe",
+      "controllatoIl": "2026-08-10T07:06:31.698Z"
     }
   }
 }

@@ -1,46 +1,46 @@
 {
-  "ultimoCheck": "2026-08-09T06:35:44.034Z",
-  "esito": "ok",
+  "ultimoCheck": "2026-08-10T07:06:31.698Z",
+  "esito": "cambiamento-rilevato",
   "fonti": [
     {
       "nome": "MEF — addizionale comunale (Milano, F205)",
       "stato": "ok",
       "dettaglio": "Invariato (carry-forward dall'anno 2025: nessuna delibera 2026 — normale prima del 20/12)",
-      "controllatoIl": "2026-08-09T06:35:44.034Z"
+      "controllatoIl": "2026-08-10T07:06:31.698Z"
     },
     {
       "nome": "MEF — addizionale regionale (Lombardia)",
       "stato": "ok",
       "dettaglio": "Invariato",
-      "controllatoIl": "2026-08-09T06:35:44.034Z"
+      "controllatoIl": "2026-08-10T07:06:31.698Z"
     },
     {
       "nome": "Normattiva — art. 11 TUIR (scaglioni IRPEF)",
-      "stato": "ok",
-      "dettaglio": "Testo vigente invariato",
+      "stato": "cambiamento-rilevato",
+      "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art11!vig=",
-      "controllatoIl": "2026-08-07T21:01:55.062Z"
+      "controllatoIl": "2026-08-10T07:06:31.698Z"
     },
     {
       "nome": "Normattiva — art. 13 TUIR (detrazioni lavoro dipendente)",
-      "stato": "ok",
-      "dettaglio": "Testo vigente invariato",
+      "stato": "cambiamento-rilevato",
+      "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art13!vig=",
-      "controllatoIl": "2026-08-07T21:01:55.062Z"
+      "controllatoIl": "2026-08-10T07:06:31.698Z"
     },
     {
       "nome": "Normattiva — D.L. 3/2020 art. 1 (trattamento integrativo)",
-      "stato": "ok",
-      "dettaglio": "Testo vigente invariato",
+      "stato": "cambiamento-rilevato",
+      "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2020-02-05;3~art1!vig=",
-      "controllatoIl": "2026-08-07T21:01:55.062Z"
+      "controllatoIl": "2026-08-10T07:06:31.698Z"
     },
     {
       "nome": "Normattiva — L. 207/2024 art. 1 (somma integrativa e ulteriore detrazione)",
-      "stato": "ok",
-      "dettaglio": "Testo vigente invariato",
+      "stato": "cambiamento-rilevato",
+      "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-12-30;207~art1!vig=",
-      "controllatoIl": "2026-08-07T21:01:55.062Z"
+      "controllatoIl": "2026-08-10T07:06:31.698Z"
     }
   ],
   "scadenze": [
@@ -50,7 +50,7 @@
       "stato": "ricevuta"
     },
     {
-      "nome": "Verifica fonti recente (ultima: 2026-08-07, 2 gg fa)",
+      "nome": "Verifica fonti recente (ultima: 2026-08-07, 3 gg fa)",
       "attesaEntro": "180 giorni",
       "stato": "ricevuta"
     }
