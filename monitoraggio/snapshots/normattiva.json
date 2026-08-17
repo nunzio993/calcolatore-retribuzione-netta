@@ -3,26 +3,26 @@
     "art11-tuir": {
       "stato": "cambiamento-rilevato",
       "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
-      "hash": "e05af2609543acad1226af7808ef42d21ed61e4e37511c72524091e96df6411a",
-      "controllatoIl": "2026-08-10T07:06:31.698Z"
+      "hash": "0b8bf959a815d32f7b17a7a92718aaf235b31e3ca08079bd83a7ebd2fc101b5d",
+      "controllatoIl": "2026-08-17T06:29:56.840Z"
     },
     "art13-tuir": {
       "stato": "cambiamento-rilevato",
       "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
-      "hash": "6996c68e98dec215ffa1f5ec6eb1a8b053a5dd40e05eff8cc4df4ab1e22b1caa",
-      "controllatoIl": "2026-08-10T07:06:31.698Z"
+      "hash": "f74ccb1cc2cd854281cb8e94ad0b24d7588abb9a5009ee068ee33bd720bc5f51",
+      "controllatoIl": "2026-08-17T06:29:56.840Z"
     },
     "dl3-2020-art1": {
       "stato": "cambiamento-rilevato",
       "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
-      "hash": "db49dee53eb9b546af27c7401a940199c50a43c04e03230056365ac041e458ad",
-      "controllatoIl": "2026-08-10T07:06:31.698Z"
+      "hash": "4638fd378c0e259810f468e0419abb6b099f61c8259de8bfccee7096ee712e87",
+      "controllatoIl": "2026-08-17T06:29:56.840Z"
     },
     "l207-2024-art1": {
       "stato": "cambiamento-rilevato",
       "dettaglio": "Il testo vigente è cambiato rispetto all'ultima lettura: rileggere l'articolo e verificare i parametri che lo citano",
-      "hash": "a7068b5618204bbda566ba07edfe188590ed9c7cdcbc704d4c165ab03029ebfe",
-      "controllatoIl": "2026-08-10T07:06:31.698Z"
+      "hash": "0cf40bcaf3d865c5dd8b49cb213ba699e4a84de40d90ea3b8d4ec0102da7e91f",
+      "controllatoIl": "2026-08-17T06:29:56.840Z"
     }
   }
 }
