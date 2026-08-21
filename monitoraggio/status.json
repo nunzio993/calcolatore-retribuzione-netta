@@ -1,18 +1,18 @@
 {
-  "ultimoCheck": "2026-08-20T06:24:11.439Z",
+  "ultimoCheck": "2026-08-21T06:24:27.157Z",
   "esito": "cambiamento-rilevato",
   "fonti": [
     {
       "nome": "MEF — addizionale comunale (Milano, F205)",
       "stato": "ok",
       "dettaglio": "Invariato (carry-forward dall'anno 2025: nessuna delibera 2026 — normale prima del 20/12)",
-      "controllatoIl": "2026-08-20T06:24:11.439Z"
+      "controllatoIl": "2026-08-21T06:24:27.157Z"
     },
     {
       "nome": "MEF — addizionale regionale (Lombardia)",
       "stato": "ok",
       "dettaglio": "Invariato",
-      "controllatoIl": "2026-08-20T06:24:11.439Z"
+      "controllatoIl": "2026-08-21T06:24:27.157Z"
     },
     {
       "nome": "Normattiva — art. 11 TUIR (scaglioni IRPEF)",
@@ -50,7 +50,7 @@
       "stato": "ricevuta"
     },
     {
-      "nome": "Verifica fonti recente (ultima: 2026-08-07, 13 gg fa)",
+      "nome": "Verifica fonti recente (ultima: 2026-08-07, 14 gg fa)",
       "attesaEntro": "180 giorni",
       "stato": "ricevuta"
     }
